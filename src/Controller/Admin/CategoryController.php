@@ -21,7 +21,7 @@ class CategoryController extends AbstractController
     /**
      * @Route("/admin/category/add", name="admin_category_add")
      */
-    public function addCagetories()
+    public function addCagetory()
     {
         return $this->render('admin/category/add.html.twig', [
             'controller_name' => 'CategoryController',
@@ -31,7 +31,7 @@ class CategoryController extends AbstractController
     /**
      * @Route("/admin/category/edit", name="admin_category_edit")
      */
-    public function editCagetories()
+    public function editCagetory()
     {
         return $this->render('admin/category/edit.html.twig', [
             'controller_name' => 'CategoryController',
